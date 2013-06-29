@@ -17,13 +17,14 @@ set nocompatible               " be iMproved
  Bundle 'tpope/vim-rails.git'
  Bundle 'vim-scripts/bash-support.vim'
  Bundle 'vim-scripts/c.vim'
- Bundle 'wincent/Command-T'
+ Bundle 'scrooloose/nerdtree'
+ "Bundle 'wincent/Command-T'
  " vim-scripts repos
  Bundle 'L9'
  Bundle 'FuzzyFinder'
  " non github repos
-" Bundle 'git://git.wincent.com/command-t.git'
-" git repos on your local machine (ie. when working on your own plugin)
+ "Bundle 'git://git.wincent.com/command-t.git'
+ " git repos on your local machine (ie. when working on your own plugin)
  " ...
 
  filetype plugin indent on     " required!
