@@ -1,4 +1,4 @@
-set nocompatible               " be iMproved
+ set nocompatible               " be iMproved
  filetype off                   " required!
 
  set rtp+=~/.vim/bundle/vundle/
@@ -19,6 +19,7 @@ set nocompatible               " be iMproved
  Bundle 'vim-scripts/c.vim'
  Bundle 'scrooloose/nerdtree'
  Bundle 'flazz/vim-colorschemes'
+ Bundle 'altercation/vim-colors-solarized'
  "Bundle 'wincent/Command-T'
  " vim-scripts repos
  Bundle 'L9'
@@ -68,6 +69,7 @@ set nocompatible               " be iMproved
  "set 
  " user defined  from this line
  imap jk <Esc>					" global mode switch
+ colorscheme ashen
  set number
  set hlsearch 
  set autoindent
