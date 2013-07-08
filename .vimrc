@@ -18,6 +18,7 @@ set nocompatible               " be iMproved
  Bundle 'vim-scripts/bash-support.vim'
  Bundle 'vim-scripts/c.vim'
  Bundle 'scrooloose/nerdtree'
+ Bundle 'flazz/vim-colorschemes'
  "Bundle 'wincent/Command-T'
  " vim-scripts repos
  Bundle 'L9'
@@ -64,8 +65,11 @@ set nocompatible               " be iMproved
  "nnoremap <C-k> <C-w>k
  "nnoremap <C-l> <C-w>l
 
+ "set 
  " user defined  from this line
- imap jk <Esc>
+ imap jk <Esc>					" global mode switch
  set number
  set hlsearch 
  set autoindent
+ set list
+ set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
