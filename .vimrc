@@ -58,7 +58,18 @@
  if v:lang =~? '^\(zh\)\|\(ja\)\|\(ko\)'
 	 set ambiwidth=double
  endif
-
+ " =============================Language=======================================
+ 
+ imap jk <Esc>					" global mode switch
+ colorscheme lilac
+ set number
+ set hlsearch 
+ set autoindent
+ set list
+ set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
+ " =============================user defined=======================================
+ 
+ "just keep these
  " 窗口分割时,进行切换的按键热键需要连接两次,比如从下方窗口移动
  "光标到上方窗口,需要<c-w><c-w>k,非常麻烦,现在重映射为<c-k>,切换的 时候会变得非常方便.
  "nnoremap <C-w>" :split 
@@ -66,12 +77,4 @@
  "nnoremap <C-k> <C-w>k
  "nnoremap <C-l> <C-w>l
 
- "set 
- " user defined  from this line
- imap jk <Esc>					" global mode switch
- colorscheme ashen
- set number
- set hlsearch 
- set autoindent
- set list
- set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
+
