@@ -20,6 +20,7 @@
  Bundle 'scrooloose/nerdtree'
  Bundle 'flazz/vim-colorschemes'
  Bundle 'altercation/vim-colors-solarized'
+ Bundle 'vim-scripts/XML-Folding'
  "Bundle 'wincent/Command-T'
  " vim-scripts repos
  Bundle 'L9'
