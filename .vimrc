@@ -68,6 +68,10 @@
  set autoindent
  set list
  set listchars=tab:›\ ,trail:•,extends:#,nbsp:. " Highlight problematic whitespace
+ let g:xml_syntax_folding = 1
+ set foldmethod=syntax
+ set cursorline
+ set smartcase
  " =============================user defined=======================================
  
  "just keep these
